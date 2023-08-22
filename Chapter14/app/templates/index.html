@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Homepage{% endblock %}
+
+{% block content %}
+{{ super() }}
+<div class="container">
+    <h1>Hello, {% if current_user.is_authenticated %}{{ current_user.name }}{% else %}Stranger{% endif %}!</h1>
+    <div>
+        {% if current_user.can(Permission.WRITE_ARTICLES) %}
+        {{ wtf.quick_form(form) }}
+        {% endif %}
+    </div>
+</div>
+<hr>
+{% include '_post.html' %}
+{% import "_macros.html" as macros %}
+<div class="pagination-wrapper">
+    {{ macros.pagination_widget(pagination, '.index') }}
+</div>
+
+{% endblock %}
