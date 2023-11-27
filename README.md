@@ -63,3 +63,5 @@ Your support is my biggest encouragement 🎁!
 
 <img src="https://github.com/LBQTrung/Optimization-Algorithms-for-ML-from-scratch/blob/main/img/support_me.png?raw=true"/>
 
+Thank you for visiting, and happy studying!
+
