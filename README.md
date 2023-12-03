@@ -56,6 +56,8 @@ You should have some experience with the Python programming language and a basic
 
 For the practical project sections, I will explain things at a fundamental level, aiming to equip you with the ability to seek information when you encounter challenges or lack understanding of certain processes. What sets this book apart from others is the inclusion of detailed system analysis and design before proceeding with the construction and deployment of the project.
 
+Go to folder "book" to read this book.
+
 ## Support Me
 If you found this project helpful and would like to support our work, you can just buy me a coffee ☕.
 
